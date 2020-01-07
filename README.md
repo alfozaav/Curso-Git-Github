@@ -1,4 +1,4 @@
-#Comandos Github 💻 ⌨️
+# Comandos Github 💻 ⌨️
 
 **Esta es una lista de todos los comandos que usé durante el Curso Profesional de Git y Github de platzi.**
 
@@ -6,7 +6,7 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
 
  >*Además. mi letra es horrible  *  : V
  
- ###Comandos:
+ ### Comandos:
  - **$git  init //** Situado en la carpeta del proyecto, inicia el repositorio (master).
  - **$rm -rf.git //** Elimina el repositorio master.
  - **$git add nombre_archivo.txt//** Agrega un archivo al repositorio.
@@ -35,7 +35,7 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **$git config --global --all user.email //** Elimina email.
  - **$git config -l / $git config -global --list //** Verificas que lo hiciste bien.
  - **vi nombre_archivo //** Edita archivo con Vim,para comenzar a escribir es **Esc + i** y para salir del editor es **Esc + Shift + z + z.**
- - ** vim nombre_archivo // **  Crea archivo y lo edita con Vim.
+ - **vim nombre_archivo //**  Crea archivo y lo edita con Vim.
  - **$git diff commit 2 commit 1/ $git diff //** Muestra las diferencias hechas entre commits en el archivo.
  - **$git reset numero_commit --hard //** Fuerza todo a volver una versión anterior (la que se seleccione con el número de commit) y borra lo que se encuentre en staging (en la memoria ram). **No se recomienda usar este comando mucho.**
  - **$git reset numero_commit --soft  //** Vuelve a la versión anterior del commit y lo que está en staging sigue ahí (lo que está en la memoria ram en el momento y no se ha guardado).
@@ -43,7 +43,7 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **$git checkout numero_commit nombre_archivo //** Cambia el archivo a la versión que seleccionaste.
  - **$git checkout master nombre_archivo //** Trae la última versión del archivo.
  - **$git rm -cached //** Elimina archivo del staging, pero no del disco duro.
- - **$git rm --force //**Elimina archivo del staging y del disco duro.
+ - **$git rm --force //** Elimina archivo del staging y del disco duro.
  - **$git reset HEAD //** Saca archivos del area de staging para que los cambios de estos no se envien al último commit, al menos que cambiemos de opinión y los incuyamos de nuevo con **$git add.**
  - **$git commit -am "mensaje" //** Solo funciona con archivos a los que ya le has hecho **git add** antes, guarda los cambios y los manda al master  (add + commit).
  - **$git branch nombre_rama //** Crea una rama.
@@ -74,7 +74,6 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **$git stash pop //** Rehace los cambios.
  - **$git stash list //** Muestra los cambios.
 
--**
 ### Llaves SSH 🔑 
 
 Pasos para crear y enviar llaves SSH a github para establecer una conexión más segura y sin necesidad de estar poniendo tu contraseña a cada rato.
