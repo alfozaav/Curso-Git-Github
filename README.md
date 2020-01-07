@@ -23,7 +23,9 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **cd .. //** Regresa un paso afuera de la carpeta en donde te encontrabas.
  - **pwd //** Muestra en donde te encuentras.
  - **mkdir nombre_carpeta //** Crea una carpeta.
+ - **RD /S nombre_carpeta //** Elimina carpeta desde CMD.
  - **touch //** Crea un archivo vacío.
+ - **DEL /F /A archivo.txt //** Elimina archivo desde CMD
  - **cat nombre_archivo //** Muestra el contenido del archivo en consola.
  - **history //** Muestra toda la historia de comandos hechos, para repetir uno puedes usar las flechas **arriba/ abajo** o también poniendo el número que el comando tiene en la historia.
  - **rm nombre_archivo //** Borra archivo.
