@@ -91,7 +91,7 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
 Si lo usas con el **hash**, te forzará todo a ese punto y eliminará la historia después de eso como un **reset hard.**
 - **$git grep palabra //** Busca donde es usada esa palabra en los archivos del proyecto.
 - **$git grep -n palabra //** Busca donde es usada y en qué linea dentro de los archivos del proyecto.
-- **$git grep -c palabra //** Cuenta el número de veces que es usada esa palabra y en qué archivos. Si quieres burcar por **etiquetas html** entonces debes poner la etiqueta entre comillas. **Ej: $git grep -c "<p>".**
+- **$git grep -c palabra //** Cuenta el número de veces que es usada esa palabra y en qué archivos. Si quieres burcar por **etiquetas html** entonces debes poner la etiqueta entre comillas. **Ej: $git grep -c "etiqueta html".**
 - **$git log -S "palabra" //** Busca cuando fue usada esa palabra en los mensajes de los commits hechos.
 - **$git shortlog //** Muestra cuantos commits han hecho cada uno de los integrantes del proyecto.
 - **$git shortlog -sh //** Muestra las personas que han trabajado en el proyecto y el número de commits que han hecho.
