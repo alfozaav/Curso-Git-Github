@@ -72,9 +72,18 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **$git clone url //** Clona el repositorio en linea en tu repositorio local.
  - **Ctrl + Shit + r //** Fuerza la actualización de una página.
  - **$git branch -D //** Borra ramas.
- - **$git stash //** Recupera los cambios, como un Crtl + Z.
+ - **$git stash //** Recupera los cambios, como un Crtl + Z, los almacena en memoria para decidir si usarlos o no.
  - **$git stash pop //** Rehace los cambios.
  - **$git stash list //** Muestra los cambios.
+ - **$git stash brand rama_nombre //** Manda los cambios almacenados en memoria a una nueva rama.
+ - **$git stash drop //** Elimina el stash que esté en memoria.
+ - **$git clean //** Se usa cuando tienes archivos que no sirven en tu directorio/repositorio o que por error clonaste, archivos como .log, resultados de deploys, etc.
+ Pero no se usa solo.
+ - **$git clean --dry-run //** Muestra una lista de todos los archivos que se van a borrar, los que Git detectó.
+ - **$git clean -f //** Elimina los archivos de esa lista, si aún quedan archivos basura en tu carpeta que no fueron borrados con el comando, entonces tienes que hacerlo manualmente.
+ - **$git cherry-pick numero_commit //** Trae solamente 1 commit (los cambios de este) de alguna rama a otra.
+ Se usa por si el archivo editado en esa rama aún no está listo para hacerse merge o traerse completo y se requiere solamente alguna parte pequeña de él en otra rama o en el master.
+**Es una mala práctica, ya que se está modificando la historia, es mejor hacer un merge al final.**
 
 ### Llaves SSH 🔑 
 
@@ -110,6 +119,8 @@ Eso es todo, ahora ya tienes tu llave SSH configurada en tu máquina, el siguien
 
 **Se recomienda tener una llave por equipo, en caso de que cambies de computadora es mejor generar otra que querer pasar tu llave actual a tu equipo**
  
+
+ ###### Hecho con amor por Gerardo Zavala. ⚽️🟡
  
  
  
