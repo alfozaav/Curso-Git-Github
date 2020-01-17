@@ -8,7 +8,7 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  
  ### Comandos:
  - **$git  init //** Situado en la carpeta del proyecto, inicia el repositorio (master).
- - **$rm -rf.git //** Elimina el repositorio **master.**
+ - **$rm -rf .git //** Elimina el repositorio **master.**
  - **$git add nombre_archivo.txt//** Agrega un archivo al repositorio.
  - **$git commit -m "Mensaje"//** Guarda los cambios después de agregar el archivo, siempre va después de **$git add.**
  - **$git add . //** Agrega todos los archivos de la carpeta.
