@@ -108,7 +108,7 @@ Si lo usas con el **hash**, te forzará todo a ese punto y eliminará la histori
 Pasos para crear y enviar llaves SSH a github para establecer una conexión más segura y sin necesidad de estar poniendo tu contraseña a cada rato.
 
 Desde el home:
-**ssh -keygen -t rsa -b 4096 -C correo_repositorio**
+**ssh-keygen -t rsa -b 4096 -C correo_repositorio**
 
 Asegurarme de que el servidor de llaves SSH esté encendido.
 Windos/Linux:
