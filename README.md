@@ -114,7 +114,7 @@ Crea una contraseña corta para la llave,
 
 Asegurarme de que el servidor de llaves SSH esté encendido.
 Windos/Linux:
-**$eval $(ssh-agent-s)**
+**$eval $(ssh-agent -s)**
 Agregar llave al sistema
 **$ssh-add ~/.ssh/keyname**
 
