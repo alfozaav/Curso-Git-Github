@@ -45,6 +45,8 @@ Fue elaborada para tener un fácil acceso a ellos en caso de ser necesario.
  - **$git log --stat //** Muestra todas las versiones hechas (todos los commits), con las flechas te mueves entre ellas y con **q** regresas a escribir comandos.
  - **$git checkout numero_commit nombre_archivo //** Cambia el archivo a la versión que seleccionaste.
  - **$git checkout master nombre_archivo //** Trae la última versión del archivo.
+ - **$git checkout -b <branch name> //** Crea una rama nueva.
+ - **$git push -u origin <branch name> //** Hace push a una rama local.
  - **$git rm -cached //** Elimina archivo del staging, pero no del disco duro.
  - **$git rm --force //** Elimina archivo del staging y del disco duro.
  - **$git reset HEAD //** Saca archivos del area de staging para que los cambios de estos no se envien al último commit, al menos que cambiemos de opinión y los incuyamos de nuevo con **$git add.**
